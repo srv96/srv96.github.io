@@ -104,7 +104,8 @@
                         <p>
                             Although a lot of people seem to define more or less properly this field, there is still a
                             lot to learn about it, actually I don’t think we can stop learning new things when we jump
-                            into this field.<b> Data Science is moving faster than the people using it</b>, so one need to keep
+                            into this field.<b> Data Science is moving faster than the people using it</b>, so one need
+                            to keep
                             learning constantly in order to see the whole picture and the extent of Data Science.
                         </p>
                     </div>
@@ -470,29 +471,34 @@
                 <div class="col-md-8">
                     <div class="contact-form">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form method="post" autocomplete="off" name="google-sheet">
                             <div class="control-group">
                                 <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                       required="required" data-validation-required-message="Please enter your name"/>
+                                       required="required" data-validation-required-message="Please enter your name"
+                                       name="Name"/>
                                 <p class="help-block"></p>
                             </div>
                             <div class="control-group">
                                 <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                       required="required" data-validation-required-message="Please enter your email"/>
+                                       required="required" data-validation-required-message="Please enter your email"
+                                       name="Email"/>
                                 <p class="help-block"></p>
                             </div>
                             <div class="control-group">
                                 <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                       required="required" data-validation-required-message="Please enter a subject"/>
+                                       required="required" data-validation-required-message="Please enter a subject"
+                                       name="Subject"/>
                                 <p class="help-block"></p>
                             </div>
                             <div class="control-group">
                                 <textarea class="form-control" id="message" placeholder="Message" required="required"
-                                          data-validation-required-message="Please enter your message"></textarea>
+                                          data-validation-required-message="Please enter your message"
+                                          name="Message"></textarea>
                                 <p class="help-block"></p>
                             </div>
                             <div>
-                                <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                <button class="btn" type="submit" id="sendMessageButton" value="Login">Send Message
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -501,6 +507,19 @@
         </div>
     </div>
 </div>
+<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw3FUQQD1o_bpIL8ckGBY6Y6EDFvSQWPNhDxjUZP2N7xk32oL2_Htt_kMgZXgH5pQ5e/exec'
+            const form = document.forms['google-sheet']
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+                            console.log(form)
+
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+</script>
 <!-- Contact End -->
 
 <!-- Footer Start -->
