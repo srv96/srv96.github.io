@@ -107,3 +107,32 @@
     
 })(jQuery);
 
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw3FUQQD1o_bpIL8ckGBY6Y6EDFvSQWPNhDxjUZP2N7xk32oL2_Htt_kMgZXgH5pQ5e/exec'
+const form = document.forms['google-sheet']
+
+form.addEventListener('submit', e => {
+         e.preventDefault()
+         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => notify())
+    .catch(error => console.error('Error!', error.message))
+})
+
+function notify() {
+     var element = document.getElementById("alertnotify");
+     element.classList.add("show");
+    element.classList.remove("hide");
+    element.classList.add("showAlert");
+    setTimeout(function(){
+        var element = document.getElementById("alertnotify");
+        element.classList.add("hide");
+        element.classList.remove("show");
+    },5000);
+}
+
+document.getElementById("closealert").addEventListener("click", function(){
+    var element = document.getElementById("alertnotify");
+    element.classList.add("hide");
+    element.classList.remove("show");
+});
+
