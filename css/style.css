@@ -1610,8 +1610,9 @@ a:focus {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   background: #3da651;
-  padding: 20px 40px;
-  min-width: 420px;
+  padding: 15px 40px;
+  min-width: 200px;
+  max-height:100px;
   position: absolute;
   right: 0;
   top: 10px;
@@ -1659,17 +1660,18 @@ a:focus {
     transform: translateX(100%);
   }
 }
-.alert .fa-exclamation-circle{
+.alert .fa-check-square{
   position: absolute;
-  left: 20px;
+  left: 5px;
   top: 50%;
   transform: translateY(-50%);
   color: #e6e6e6;
-  font-size: 30px;
+  font-size: 20px;
 }
 .alert .msg{
-  padding: 0 20px;
-  font-size: 18px;
+  padding: 0px 0px 15px 0px;
+  font-size: 15px;
+  vertical-align: middle;
   color: #e6e6e6;
 }
 .alert .close-btn{
@@ -1678,7 +1680,7 @@ a:focus {
   top: 50%;
   transform: translateY(-50%);
   background: #ffd080;
-  padding: 20px 18px;
+  padding: 15px 13px;
   cursor: pointer;
 }
 .alert .close-btn:hover{
