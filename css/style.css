@@ -776,6 +776,15 @@ a:focus {
     font-size: 75px;
 }
 
+.service-icon-custom{
+    height:110px;
+    width:110px;
+    transition : all 0.3s ease-in-out
+}
+.service-item:hover .service-icon-custom {
+    transform: scale(1.2);
+}
+
 .service .service-text {
     position: relative;
     width: calc(100% - 120px);
