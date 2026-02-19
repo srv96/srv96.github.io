@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://srv96.github.io/sitemap.xml
