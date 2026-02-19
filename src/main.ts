@@ -1,13 +1,22 @@
+import './scss/style.scss';
 import { experienceData, portfolioData } from './data';
 import imagesLoaded from 'imagesloaded';
+import Typed from 'typed.js';
+import Isotope from 'isotope-layout';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-// Declare globals from CDNs
+// Initialize AOS (replacement for WOW.js)
+AOS.init({
+    offset: 0,
+    duration: 1500,
+    easing: 'ease-in-out',
+    once: true,
+    mirror: false
+});
 
-declare const WOW: any;
-declare const Typed: any;
+// Declare google global (only one remaining)
 declare const google: any;
-
-declare const Isotope: any;
 
 // Render Experience Section
 const renderExperience = () => {
@@ -15,7 +24,7 @@ const renderExperience = () => {
     if (!container || typeof experienceData === 'undefined') return;
 
     const html = experienceData.map(item => `
-        <div class="timeline-item ${item.position} wow slideIn${item.position === 'left' ? 'Left' : 'Right'}" data-wow-delay="0.1s">
+        <div class="timeline-item ${item.position}" data-aos="fade-${item.position}" data-aos-delay="100">
             <div class="timeline-text">
                 <div class="timeline-date">${item.period}</div>
                 <h2>${item.role}</h2>
@@ -37,7 +46,7 @@ const renderPortfolio = () => {
     if (!container || typeof portfolioData === 'undefined') return;
 
     const html = portfolioData.map((item, index) => `
-        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item ${item.filter} wow fadeInUp" data-wow-delay="${index * 0.2}s">
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item ${item.filter}" data-aos="fade-up" data-aos-delay="${index * 200}">
             <div class="portfolio-wrap">
                 <div class="portfolio-img">
                     <p><a href="${item.link}">
@@ -73,7 +82,7 @@ loader();
 
 
 // Initiate the wowjs
-new WOW().init();
+// Initiate the wowjs (Replaced by AOS above)
 
 
 // Back to top button
@@ -196,7 +205,7 @@ const portfolioContainer = document.querySelector('.portfolio-container');
 let portfolioIsotope: any;
 
 if (portfolioContainer) {
-    portfolioIsotope = new Isotope(portfolioContainer, {
+    portfolioIsotope = new Isotope(portfolioContainer as HTMLElement, {
         itemSelector: '.portfolio-item',
         layoutMode: 'fitRows'
     });

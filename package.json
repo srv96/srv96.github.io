@@ -10,7 +10,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:ui": "vitest --ui"
   },
   "repository": {
     "type": "git",
@@ -24,15 +26,24 @@
   },
   "homepage": "https://github.com/srv96/srv96.github.io#readme",
   "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "jsdom": "^28.1.0",
     "typescript": "^5.9.3",
-    "vite": "^7.3.1"
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
   },
   "dependencies": {
     "@fontsource/montserrat": "^5.2.8",
+    "@types/aos": "^3.0.7",
     "@types/imagesloaded": "^4.1.7",
+    "@types/isotope-layout": "^3.0.15",
+    "aos": "^2.3.4",
     "fslightbox": "^3.7.5",
     "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "sass": "^1.97.3",
     "sharp": "^0.34.5",
+    "typed.js": "^3.0.0",
     "vite-plugin-image-optimizer": "^2.0.3",
     "vite-plugin-sitemap": "^0.8.2"
   }
