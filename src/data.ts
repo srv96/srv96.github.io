@@ -76,37 +76,37 @@ export const portfolioData: PortfolioItem[] = [
     {
         filter: "filter-1",
         link: "https://github.com/srv96/Data-Analytics-with-python",
-        img: "/img/data-analysis.png",
+        img: "img/data-analysis.png",
         title: "Data Analytics"
     },
     {
         filter: "filter-2",
         link: "https://github.com/srv96/deep-learning-model-design",
-        img: "/img/neuralnet.png",
+        img: "img/neuralnet.png",
         title: "Neural Net Design"
     },
     {
         filter: "filter-3",
         link: "https://github.com/srv96/Conway-s-Game-Of-Life",
-        img: "/img/gameoflife.gif",
+        img: "img/gameoflife.gif",
         title: "Game Of Life"
     },
     {
         filter: "filter-1",
         link: "https://github.com/srv96/MovingAverageTrading",
-        img: "/img/movingavgtrading.jpeg",
+        img: "img/movingavgtrading.jpeg",
         title: "Moving Average Trading"
     },
     {
         filter: "filter-2",
         link: "https://github.com/srv96/jump-piggy-jump",
-        img: "/img/piggy.gif",
+        img: "img/piggy.gif",
         title: "Jump-Piggy-Jump"
     },
     {
         filter: "filter-3",
         link: "https://github.com/srv96/cannonFireGame",
-        img: "/img/canon.jpg",
+        img: "img/canon.jpg",
         title: "Cannon Fire Game"
     }
 ];
