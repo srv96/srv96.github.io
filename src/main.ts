@@ -45,8 +45,8 @@ const renderPortfolio = () => {
     const container = document.querySelector('.portfolio-container');
     if (!container || typeof portfolioData === 'undefined') return;
 
-    const html = portfolioData.map((item, index) => `
-        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item ${item.filter}" data-aos="fade-up" data-aos-delay="${index * 200}">
+    const html = portfolioData.map((item) => `
+        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item ${item.filter}">
             <div class="portfolio-wrap">
                 <div class="portfolio-img">
                     <p><a href="${item.link}">
@@ -207,7 +207,8 @@ let portfolioIsotope: any;
 if (portfolioContainer) {
     portfolioIsotope = new Isotope(portfolioContainer as HTMLElement, {
         itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
+        layoutMode: 'fitRows',
+        transitionDuration: '0.4s'
     });
 
     const filterItems = document.querySelectorAll('#portfolio-filter li');
