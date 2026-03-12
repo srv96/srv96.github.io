@@ -149,17 +149,7 @@ navLinks.forEach(link => {
 });
 
 
-// Navbar Toggler
-const navbarToggler = document.querySelector('.navbar-toggler');
-const navbarCollapse = document.querySelector('#navbarCollapse');
 
-if (navbarToggler && navbarCollapse) {
-    navbarToggler.addEventListener('click', () => {
-        navbarCollapse.classList.toggle('show');
-        const isExpanded = navbarCollapse.classList.contains('show');
-        navbarToggler.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-    });
-}
 
 
 // Typed Initiate
