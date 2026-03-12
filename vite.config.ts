@@ -4,6 +4,7 @@ import Sitemap from 'vite-plugin-sitemap';
 
 export default defineConfig({
     root: './',
+    base: '/',
     build: {
         outDir: 'dist',
         assetsDir: 'assets',
