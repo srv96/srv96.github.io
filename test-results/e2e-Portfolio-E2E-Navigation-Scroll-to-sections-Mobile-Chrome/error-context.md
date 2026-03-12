@@ -1,0 +1,291 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Portfolio" [ref=e4] [cursor=pointer]:
+        - /url: index.html
+      - button "Toggle navigation" [ref=e5] [cursor=pointer]
+  - banner [ref=e7]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: I'm
+        - heading "Sourav Dash" [level=1] [ref=e14]
+        - heading "Software E" [level=2] [ref=e15]
+        - text: "|"
+      - generic [ref=e16]:
+        - link "CV" [ref=e17] [cursor=pointer]:
+          - /url: cv/cv.jpg
+        - link "Contact Me" [ref=e18] [cursor=pointer]:
+          - /url: mailto:souravdash231996@gmail.com
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - img "Image" [ref=e25]
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: Sourav in a nutshell
+          - heading "4 Years Experience" [level=2] [ref=e30]
+        - generic [ref=e31]:
+          - paragraph [ref=e32]: As a Data Engineer, I specialize in designing robust solutions for on-premises Big Data applications, encompassing Micro Services and Big Data lifecycle management.
+          - paragraph [ref=e33]: Beyond my professional focus, I avidly explore the realms of Data Science and machine learning, continuously expanding my knowledge in these domains
+          - paragraph [ref=e34]: Although a lot of people seem to define more or less properly this field, there is still a lot to learn about it, actually I don’t think we can stop learning new things when we jump into this field. Data Science is moving faster than the people using it, so one need to keep learning constantly in order to see the whole picture and the extent of Data Science.
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - paragraph [ref=e37]: Bigdata ETL pipeline design
+            - paragraph [ref=e38]: 70%
+          - generic [ref=e39]:
+            - progressbar
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: Data Analytics & Machine Learning
+            - paragraph [ref=e42]: 80%
+          - generic [ref=e43]:
+            - progressbar
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: Springboot with Java 1.8
+            - paragraph [ref=e46]: 75%
+          - generic [ref=e47]:
+            - progressbar
+          - generic [ref=e48]:
+            - paragraph [ref=e49]: Aws
+            - paragraph [ref=e50]: 70%
+          - generic [ref=e51]:
+            - progressbar
+        - link "Learn More" [ref=e52] [cursor=pointer]:
+          - /url: img/ability.jpg
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - paragraph [ref=e56]: passion and profession
+        - heading "What I do" [level=2] [ref=e57]
+      - generic [ref=e58]:
+        - generic [ref=e60]:
+          - generic [ref=e62]: 
+          - generic [ref=e63]:
+            - heading "Data analytics" [level=3] [ref=e64]
+            - paragraph [ref=e65]: I Design and utilize algorithms for analyzing trends in data and interpret them with clear. objectives.
+        - generic [ref=e67]:
+          - generic [ref=e69]: 
+          - generic [ref=e70]:
+            - heading "Application development with Springboot & AWS" [level=3] [ref=e71]
+            - paragraph [ref=e72]: Have Industry Experience in Rest api Development with Spring boot and aws.
+        - generic [ref=e74]:
+          - img [ref=e76]
+          - generic [ref=e77]:
+            - heading "Big data architectures design" [level=3] [ref=e78]
+            - paragraph [ref=e79]: As a Big data Engineer I have experience on ETL and analysis of Big data in Hadoop and AWS eco system
+        - generic [ref=e81]:
+          - generic [ref=e83]: 
+          - generic [ref=e84]:
+            - heading "Database" [level=3] [ref=e85]
+            - paragraph [ref=e86]: Have hands-on Experience on NoSql Databases like Apache Cassandra, MongoDB ,Amazon S3.Have Industry experience in SQL
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - paragraph [ref=e90]: My Resume
+        - heading "Working Experience" [level=2] [ref=e91]
+      - generic [ref=e92]:
+        - generic [ref=e94]:
+          - generic [ref=e95]: 2024 - present
+          - heading "Senior Data Engineer" [level=2] [ref=e96]
+          - heading "Visa AI as a Service , Bangalore ,India" [level=4] [ref=e97]
+          - paragraph [ref=e98]: Currently Building high-throughput ETL pipelines (40k TPS) with low-latency ( less then 2ms ) to train deep learning models for credit card fraud detection. along with that working on message bridge solution for accepting high-throughput transection from active-mq to ETL pipeline with ensuring dynamic scalability based on throughput requirements with Kubernetes.
+        - generic [ref=e100]:
+          - generic [ref=e101]: 2021 - 2024
+          - heading "Data Engineer" [level=2] [ref=e102]
+          - heading "Jp Morgan Chase , Bangalore ,India" [level=4] [ref=e103]
+          - paragraph [ref=e104]: Have worked as Data Engineer in Investment Banking Sector,Contributed to a project related to AWS migration. Apart from that Working on BigData ETL pipeline design,Data Reconciliation,Report Generation using SQL from the processed Data,Reconciling SQL disparities between legacy and modern systems for data consistency and Many more .
+        - generic [ref=e106]:
+          - generic [ref=e107]: 2020 - 2021
+          - heading "Software Engineer" [level=2] [ref=e108]
+          - heading "Jp Morgan Chase , Bangalore ,India" [level=4] [ref=e109]
+          - paragraph [ref=e110]: Worked as Software Developer in Investment Banking Sector, Worked on Data lifecycle Management, BigData Technologies, Dispute Management and Many more .
+        - generic [ref=e112]:
+          - generic [ref=e113]: "2019"
+          - heading "Software Engineer Intern" [level=2] [ref=e114]
+          - heading "Jp Morgan Chase , Hyderabad ,India" [level=4] [ref=e115]
+          - paragraph [ref=e116]: It was a two month Internship , I have work on end-to-end development of Extraction-Transformation-Loading of Business Data with help of java Programming and Apache tools and had mad a GUI with angular js for representation .
+        - generic [ref=e118]:
+          - generic [ref=e119]: 2017-2020
+          - heading "Student" [level=2] [ref=e120]
+          - heading "National Institute of technology Warangal" [level=4] [ref=e121]
+          - paragraph [ref=e122]: Some years full of enthusiasm , Had meet some amazing people with similar passion , Learnt a lot of new things .
+        - generic [ref=e124]:
+          - generic [ref=e125]: 2013-2017
+          - heading "Student" [level=2] [ref=e126]
+          - heading "Gangadhar Meher University ,Sambalpur , Odisha" [level=4] [ref=e127]
+          - paragraph [ref=e128]: Done my Bachelor's degree study from this college , Where I had my speciality in Math and Computer Science. This was the time, when I found myself gradually inclined towards computers and programmings .
+        - generic [ref=e130]:
+          - generic [ref=e131]: 2011-2013
+          - heading "Student" [level=2] [ref=e132]
+          - heading "Veer Surendra Sai Institue of Science , Sambalpur" [level=4] [ref=e133]
+          - paragraph [ref=e134]: My Junior Collage, Where I have elected Physics,Chemistry,Math and Computer Science for Higher education .
+        - generic [ref=e136]:
+          - generic [ref=e137]: 2001-2011
+          - heading "Student" [level=2] [ref=e138]
+          - heading "Saraswati Sishu Vidya Mandir ,Titilagarh" [level=4] [ref=e139]
+          - paragraph [ref=e140]: A small school local to my home-town where I have got my basic education up to Xth standard.
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - paragraph [ref=e144]: My Portfolio
+        - heading "Overview Of My Previous Work" [level=2] [ref=e145]
+      - list [ref=e148]:
+        - button "All" [ref=e149] [cursor=pointer]
+        - button "Analytics" [ref=e150] [cursor=pointer]
+        - button "Deep Learning" [ref=e151] [cursor=pointer]
+        - button "Game Dev" [ref=e152] [cursor=pointer]
+      - generic [ref=e153]:
+        - generic [ref=e155]:
+          - paragraph [ref=e157]:
+            - link "Image" [ref=e158] [cursor=pointer]:
+              - /url: https://github.com/srv96/Data-Analytics-with-python
+              - img "Image" [ref=e159]
+          - generic [ref=e160]:
+            - heading "Data Analytics" [level=3] [ref=e161]
+            - link "+" [ref=e162] [cursor=pointer]:
+              - /url: img/data-analysis.png
+        - generic [ref=e164]:
+          - paragraph [ref=e166]:
+            - link "Image" [ref=e167] [cursor=pointer]:
+              - /url: https://github.com/srv96/deep-learning-model-design
+              - img "Image" [ref=e168]
+          - generic [ref=e169]:
+            - heading "Neural Net Design" [level=3] [ref=e170]
+            - link "+" [ref=e171] [cursor=pointer]:
+              - /url: img/neuralnet.png
+        - generic [ref=e173]:
+          - paragraph [ref=e175]:
+            - link "Image" [ref=e176] [cursor=pointer]:
+              - /url: https://github.com/srv96/Conway-s-Game-Of-Life
+              - img "Image" [ref=e177]
+          - generic [ref=e178]:
+            - heading "Game Of Life" [level=3] [ref=e179]
+            - link "+" [ref=e180] [cursor=pointer]:
+              - /url: img/gameoflife.gif
+        - generic [ref=e182]:
+          - paragraph [ref=e184]:
+            - link "Image" [ref=e185] [cursor=pointer]:
+              - /url: https://github.com/srv96/MovingAverageTrading
+              - img "Image" [ref=e186]
+          - generic [ref=e187]:
+            - heading "Moving Average Trading" [level=3] [ref=e188]
+            - link "+" [ref=e189] [cursor=pointer]:
+              - /url: img/movingavgtrading.jpeg
+        - generic [ref=e191]:
+          - paragraph [ref=e193]:
+            - link "Image" [ref=e194] [cursor=pointer]:
+              - /url: https://github.com/srv96/jump-piggy-jump
+              - img "Image" [ref=e195]
+          - generic [ref=e196]:
+            - heading "Jump-Piggy-Jump" [level=3] [ref=e197]
+            - link "+" [ref=e198] [cursor=pointer]:
+              - /url: img/piggy.gif
+        - generic [ref=e200]:
+          - paragraph [ref=e202]:
+            - link "Image" [ref=e203] [cursor=pointer]:
+              - /url: https://github.com/srv96/cannonFireGame
+              - img "Image" [ref=e204]
+          - generic [ref=e205]:
+            - heading "Cannon Fire Game" [level=3] [ref=e206]
+            - link "+" [ref=e207] [cursor=pointer]:
+              - /url: img/canon.jpg
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - paragraph [ref=e211]: From Blog
+        - heading "Latest Articles" [level=2] [ref=e212]
+      - generic [ref=e213]:
+        - generic [ref=e215]:
+          - img "Blog" [ref=e217]
+          - generic [ref=e218]:
+            - 'heading "ADADELTA: An Adoptive learning rate method" [level=2] [ref=e219]'
+            - generic [ref=e220]:
+              - paragraph [ref=e221]:
+                - generic [ref=e222]: 
+                - text: Sourav Dash
+              - paragraph [ref=e223]:
+                - generic [ref=e224]: 
+                - text: Medium
+              - paragraph [ref=e225]:
+                - generic [ref=e226]: 
+                - text: 18-Apr-2020
+              - paragraph [ref=e227]:
+                - generic [ref=e228]: 
+                - text: "5"
+            - paragraph [ref=e229]: Instead of accumulating the sum of squared gradients over all time, we restricted the window of past gradients that are accumulated to be some fixed size w where w < t (i.e. the number of epoch).This method implements this accumulation as an exponentially decaying average of the squared gradients. Since storing w previous squared gradients is inefficient.
+            - link "Read More " [ref=e230] [cursor=pointer]:
+              - /url: https://medium.com/@srv96/adadelta-an-adoptive-learning-rate-method-108534e6be3f
+              - text: Read More
+              - generic [ref=e231]: 
+        - generic [ref=e233]:
+          - img "Blog" [ref=e235]
+          - generic [ref=e236]:
+            - heading "Principal Component Analysis from scratch" [level=2] [ref=e237]
+            - generic [ref=e238]:
+              - paragraph [ref=e239]:
+                - generic [ref=e240]: 
+                - text: Sourav Dash
+              - paragraph [ref=e241]:
+                - generic [ref=e242]: 
+                - text: Medium
+              - paragraph [ref=e243]:
+                - generic [ref=e244]: 
+                - text: 17-May-2020
+              - paragraph [ref=e245]:
+                - generic [ref=e246]: 
+                - text: "48"
+            - paragraph [ref=e247]: In this article, It is assumed that the readers have some basic understanding of linear algebra and python programming. To reduces the time and storage space and improvement of interpretation of the parameters in the multivariate analysis we normally use dimension reduction techniques like PCA. Theirs a lot of applications of PCA but here we solely discuss whats goes on under the hood.
+            - link "Read More " [ref=e248] [cursor=pointer]:
+              - /url: https://medium.com/@srv96/principal-component-analysis-from-scratch-932ff97eb27f
+              - text: Read More
+              - generic [ref=e249]: 
+    - generic [ref=e252]:
+      - generic [ref=e256]:
+        - generic [ref=e257]:
+          - textbox "Your Name" [ref=e258]
+          - paragraph
+        - generic [ref=e259]:
+          - textbox "Your Email" [ref=e260]
+          - paragraph
+        - generic [ref=e261]:
+          - textbox "Subject" [ref=e262]
+          - paragraph
+        - generic [ref=e263]:
+          - textbox "Message" [ref=e264]
+          - paragraph
+        - button "Send Message" [ref=e266] [cursor=pointer]
+      - generic [ref=e267]:
+        - generic [ref=e268]: 
+        - text: Message Sent
+        - generic [ref=e270]: 
+  - contentinfo [ref=e271]:
+    - generic [ref=e272]:
+      - generic [ref=e274]:
+        - heading "Sourav Dash" [level=2] [ref=e275]
+        - heading "Bangalore, Karnataka, India" [level=3] [ref=e276]
+        - generic [ref=e277]:
+          - paragraph [ref=e278]: "+918280189328"
+          - paragraph [ref=e279]: souravdash231996@gmail.com
+        - generic [ref=e280]:
+          - link "Twitter" [ref=e281] [cursor=pointer]:
+            - /url: https://twitter.com/sourav231996
+            - generic [ref=e282]: 
+          - link "Facebook" [ref=e283] [cursor=pointer]:
+            - /url: https://www.facebook.com/srvdsh/
+            - generic [ref=e284]: 
+          - link "YouTube" [ref=e285] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UChGSqi9Eh5o7eqvx-otOV4w
+            - generic [ref=e286]: 
+          - link "Instagram" [ref=e287] [cursor=pointer]:
+            - /url: https://www.instagram.com/sourav_dash/
+            - generic [ref=e288]: 
+          - link "LinkedIn" [ref=e289] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/srv96/
+            - generic [ref=e290]: 
+          - link "GitHub" [ref=e291] [cursor=pointer]:
+            - /url: https://github.com/srv96
+            - generic [ref=e292]: 
+      - paragraph [ref=e294]:
+        - text: ©
+        - link "Sourav's portfolio" [ref=e295] [cursor=pointer]:
+          - /url: "#"
+        - text: ", All Right Reserved | Designed By Sourav"
+  - text: 
+```
