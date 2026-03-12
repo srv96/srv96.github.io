@@ -140,3 +140,10 @@ a:focus {
 .back-to-top:hover i {
     color: #414141;
 }
+
+/* Fix for fslightbox images overflowing on mobile */
+.fslightbox-container .fslightbox-source {
+    max-width: 95vw !important;
+    max-height: 90vh !important;
+    object-fit: contain;
+}
